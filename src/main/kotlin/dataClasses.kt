@@ -34,8 +34,8 @@ fun main(){
 
     val dataUser1 = DataUser("Juzairi", 21)
     val dataUser2 = DataUser("Safitli", 10)
-    val dataUser3 = DataUser("KOtlin", 22)
+    val dataUser3 = DataUser("Kotlin", 22)
+    val dataUser4 = dataUser1.copy()
 
-    println(dataUser2)
-    println(dataUser3)
+    println(dataUser4)
 }
