@@ -1,3 +1,5 @@
+package speciallClassAndCollection
+
 class City {
     // property in City class
     // use inner for acces the property

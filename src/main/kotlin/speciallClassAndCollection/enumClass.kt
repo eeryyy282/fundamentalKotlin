@@ -1,4 +1,4 @@
-// enumclass or enumeration
+package speciallClassAndCollection// enumclass or enumeration
 
 enum class Color(val value: Int) {
     RED(0xFF0000),

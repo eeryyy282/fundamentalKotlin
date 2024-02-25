@@ -1,4 +1,4 @@
-import javax.xml.crypto.Data
+package speciallClassAndCollection
 
 data class UserData(val name: String, val age: Int)
 
