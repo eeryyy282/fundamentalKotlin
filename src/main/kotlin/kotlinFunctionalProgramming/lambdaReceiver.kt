@@ -27,4 +27,26 @@ fun main() {
         println(msgText)
     }
 
+    //scope function with lambda receiver
+    //run
+    val hobby = "Swim"
+    val newHobby = hobby.run {
+        val from = this
+        val to = this.replace("Swim", "Badminton")
+        "replace text form $from to $to"
+    }
+    println("new hobby: $newHobby")
+
+    //with
+    val newHooby2 = with (newHobby) {
+        println("Value is $this")
+        println("length of the text is ${this.length}")
+    }
+
+    //apply
+    val builder = StringBuilder()
+    builder.append("Hello ")
+    builder.append("Kotlin")
+
+    println(builder.toString())
 }
